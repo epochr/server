@@ -1,7 +1,7 @@
 import { Query, Resolver, ResolveProperty, Mutation } from '@nestjs/graphql';
 import { find, filter } from 'lodash';
 
-@Resolver('Food')
+@Resolver('Project')
 export class ProjectResolver {
 
   constructor() {
