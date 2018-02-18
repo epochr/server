@@ -6,7 +6,7 @@ import { ProjectResolver } from './resolver/ProjectResolver';
 
 @Module({
   imports: [GraphQLModule],
-  controllers: [AppController],
+  controllers: [],
   components: [ProjectResolver],
 })
 export class ApplicationModule implements NestModule {
